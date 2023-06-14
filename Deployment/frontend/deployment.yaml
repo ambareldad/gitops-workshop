@@ -21,7 +21,7 @@ spec:
         app: fronetend
         deployment: fronetend
     spec:
-    - volumes:
+      volumes:
       - name: app-config
         configMap:
           name: app-config
